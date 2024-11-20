@@ -25,3 +25,8 @@ o.inccommand = "split" -- When nonempty, shows the effects of :substitute, :smag
 o.splitright = true
 o.splitbelow = true -- When on, splitting a window will put the new window below the current one
 o.termguicolors = true
+
+-- Baby keybind remaps
+
+vim.keymap.set('n', '<Space>e', vim.diagnostic.open_float, { noremap = true, silent = true })
+vim.keymap.set('n', '<Space>c', ':CopilotChatToggle<CR>:vertical resize 40<CR>', { noremap = true, silent = true })
