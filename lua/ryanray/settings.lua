@@ -30,3 +30,4 @@ o.termguicolors = true
 
 vim.keymap.set('n', '<Space>e', vim.diagnostic.open_float, { noremap = true, silent = true })
 vim.keymap.set('n', '<Space>c', ':CopilotChatToggle<CR>:vertical resize 40<CR>', { noremap = true, silent = true })
+vim.keymap.set('n', '<Space>b', ':Neotree toggle<CR>', { noremap = true, silent = true })
