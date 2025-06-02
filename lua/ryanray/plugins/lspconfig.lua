@@ -4,11 +4,12 @@ return {
     dependencies = {
         "hrsh7th/cmp-nvim-lsp",
         { "folke/neodev.nvim", opts = {} },
+        { "mason-org/mason.nvim", opts = {} },
     },
     config = function()
         local nvim_lsp = require("lspconfig")
         local mason_lspconfig = require("mason-lspconfig")
-
+        
         local protocol = require("vim.lsp.protocol")
 
         local on_attach = function(client, bufnr)

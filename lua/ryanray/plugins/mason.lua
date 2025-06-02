@@ -16,7 +16,12 @@ return {
                 "black", -- python formatter
                 "pylint",
                 "eslint_d",
+                "rust-analyzer"
             },
+        })
+
+        require("mason-lspconfig").setup({
+            automatic_enable = true,
         })
     end,
 }
