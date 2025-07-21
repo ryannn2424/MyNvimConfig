@@ -10,5 +10,6 @@ return {
       }
     }
   end,
-  vim.keymap.set('n', '<M-1>', 'lua require("bufferline").go_to(1, true)<cr>', {noremap = true})
 }
+
+--vim.keymap.set('n', '<M-1>', 'lua require("bufferline").go_to(1, true)<cr>', {noremap = true})
