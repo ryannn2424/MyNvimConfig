@@ -26,6 +26,9 @@ o.splitright = true
 o.splitbelow = true -- When on, splitting a window will put the new window below the current one
 o.termguicolors = true
 
+-- Set Options
+o.foldcolumn = "2"
+
 -- Baby keybind remaps
 
 vim.keymap.set('n', '<Space>e', vim.diagnostic.open_float, { noremap = true, silent = true })

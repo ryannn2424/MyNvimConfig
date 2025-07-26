@@ -6,7 +6,7 @@ return {
         indicator = {
           style = 'underline'
         },
-        separator_style = "slant"
+        separator_style = "thick"
       }
     }
   end,

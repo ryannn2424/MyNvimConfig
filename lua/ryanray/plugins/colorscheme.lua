@@ -5,6 +5,8 @@ return {
     opts = { transparent_background = true, gamma = 1 },
     config = function(_, opts)
         require("tokyodark").setup(opts)
-        vim.cmd("colorscheme tokyodark")
+        -- vim.cmd("colorscheme tokyodark")
     end,
 }
+
+
